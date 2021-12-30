@@ -1,1 +1,1 @@
-# Fraizx-Bot-Dashboard
+# Fraizx Bot Dashboard
