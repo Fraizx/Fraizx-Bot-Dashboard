@@ -1,0 +1,256 @@
+body{
+    background-color: rgb(22, 22, 22);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li{
+    float: center;
+    list-style: none;
+    margin: 10px;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    background: rgb(63, 63, 63);
+    border-radius: 8px;
+}
+
+.menu li a:hover{
+    background: rgb(83, 83, 83);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    transition: all .3s;
+    border-radius: 12px;
+}
+
+a {
+    color: rgb(169, 222, 255);    
+    text-decoration: none;
+    transition: ease all .3s;
+}
+
+a:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: aquamarine;
+    border-radius: 10px;
+}
+
+.links{
+    color: aquamarine;    
+}
+
+.links:hover{
+    color: white;
+}
+
+footer .ulinf{
+    background: rgb(32, 32, 32);
+    width: auto;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding: 50px 20px;
+    font-size: 30px;
+    min-height: 100px;
+}
+
+footer .ulinf{
+    list-style: none;
+}
+
+footer .ulinf li{
+    margin: 10px;
+}
+
+
+
+.CDFB {
+    color: aquamarine;
+    background-color:rgb(51, 51, 51);
+    border-radius: 8px;
+    float: center;
+    padding: 15px;
+}
+
+.comandos{
+    color: aquamarine;
+    background-color:rgb(51, 51, 51);
+    border-radius: 8px;
+    width: auto;
+    padding: 15px;
+    height: auto;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.cuenta{
+    background-color: gray;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin: 10px;
+    padding: 2px;
+   transition: all .3s;
+}
+
+.cuenta:hover{
+    background-color: rgb(194, 194, 194);
+    box-shadow: 0 0 10px;
+}
+
+.cuenta:active{
+    background-color: aquamarine;
+    box-shadow: 0 0 10px aquamarine;
+}
+
+.IDall1{
+    background-color: rgb(44, 44, 44);
+    width: 500px;
+    height: 10px 10px;
+    text-align: left;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 9px;
+    color: aquamarine;
+}
+
+.IDall{
+    background-color: rgb(44, 44, 44);
+    width: 500px;
+    height: auto;
+    text-align: left;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 9px;
+    color: aquamarine;
+}
+
+.ID{
+    background-color: rgb(58, 58, 58);
+    padding: 5px;
+    width: 186px;
+    height: 15px;
+    text-align: center;
+    box-shadow: 0px 3px rgb(34, 34, 34);
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+}
+
+.hracc{
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+
+.imgacc{
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.IDall a{
+    color: aquamarine;
+}
+
+.IDall a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.v22{
+    background-color: rgb(58, 58, 58);
+    padding: 5px;
+    width: 85px;
+    height: 15px;
+    text-align: center;
+    box-shadow: 0px 3px rgb(34, 34, 34);
+    border-radius: 8px;
+    font-size: 16px;
+    display: flex;
+}
+
+.IDall2{
+    background-color: rgb(44, 44, 44);
+    width: 500px;
+    height: 10px 10px;
+    text-align: left;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 9px;
+    color: aquamarine;
+}
+
+.IDall3{
+    background-color: rgb(44, 44, 44);
+    width: 500px;
+    height: 10px 10px;
+    text-align: left;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 9px;
+    color: aquamarine;
+}
+
+.agr{
+    background-color: gray;
+}
+
+.h1fbd{
+    color: aquamarine;
+    font-family: Arial;
+    text-shadow: 0 0 10px rgb(88, 187, 154);
+}
+
+hr{
+    border-color: aquamarine;
+    background-color: aquamarine;
+}
+
+h1{
+    color: aquamarine;
+}
+
+.Invitarall{
+    background-color: rgb(37, 37, 37);
+    border-top: 5px solid aquamarine;
+    border-radius: 8px;
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    display: inline-block;
+    margin-left: 500px;
+}
+
+.infop{
+    color: aquamarine;
+    font-size: 20px;
+    font-family: monospace;
+}
