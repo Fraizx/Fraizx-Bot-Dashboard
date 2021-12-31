@@ -33,12 +33,15 @@ nav ul li{
     border-radius: 8px;
 }
 
-.menu li a:hover{
+@media (hover: hover) {
+    .menu li a:hover{
     background: rgb(83, 83, 83);
     color: rgb(255, 255, 255);
     font-size: 16px;
     transition: all .3s;
     border-radius: 12px;
+}
+
 }
 
 a {
@@ -47,8 +50,11 @@ a {
     transition: ease all .3s;
 }
 
-a:hover{
+@media (hover: hover) {
+    a:hover{
     color: rgb(255, 255, 255);
+
+}
 
 }
 
@@ -65,8 +71,11 @@ body::-webkit-scrollbar-thumb{
     color: aquamarine;    
 }
 
-.links:hover{
+@media (hover: hover) {
+    .links:hover{
     color: white;
+}
+
 }
 
 footer .ulinf{
@@ -122,9 +131,12 @@ footer .ulinf li{
    transition: all .3s;
 }
 
-.cuenta:hover{
+@media (hover: hover) {
+    .cuenta:hover{
     background-color: rgb(194, 194, 194);
     box-shadow: 0 0 10px;
+}
+
 }
 
 .cuenta:active{
@@ -181,8 +193,11 @@ footer .ulinf li{
     color: aquamarine;
 }
 
-.IDall a:hover{
+@media (hover: hover) {
+   .IDall a:hover{
     color: rgb(255, 255, 255);
+} 
+
 }
 
 .v22{
@@ -253,4 +268,40 @@ h1{
     color: aquamarine;
     font-size: 20px;
     font-family: monospace;
+}
+
+.linvite{
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.linvite ul{
+    list-style: none;
+}
+
+.linvitec li{
+    display: inline-block;
+}
+
+.linvitec li a{
+    display: block;
+    padding: 15px 20px;
+    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    background: rgb(63, 63, 63);
+    border-radius: 8px;
+}
+
+@media (hover: hover) {
+    .linvitec li a:hover{
+    background: rgb(70, 70, 70);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    transition: all .3s;
+    border-radius: 12px;
+    
+}
+
 }
