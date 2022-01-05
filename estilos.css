@@ -305,3 +305,16 @@ h1{
 }
 
 }
+
+.adver-caja{
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    color: aquamarine;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.rotate{
+    font-size: 30px;
+    margin: 0%;
+}
