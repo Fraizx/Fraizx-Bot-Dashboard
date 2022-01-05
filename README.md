@@ -1,2 +1,2 @@
 # Fraizx Bot Dashboard
-´´´Á´´´
+´´´´´´
