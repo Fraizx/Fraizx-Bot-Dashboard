@@ -58,11 +58,17 @@ a {
 
 }
 
-body::-webkit-scrollbar{
+::-webkit-scrollbar{
     width: 10px;
 }
 
-body::-webkit-scrollbar-thumb{
+@media (hover: hover) {
+    ::-webkit-scrollbar-thumb:hover{
+    background: rgb(97, 192, 160);
+}
+}
+
+::-webkit-scrollbar-thumb{
     background: aquamarine;
     border-radius: 10px;
 }
